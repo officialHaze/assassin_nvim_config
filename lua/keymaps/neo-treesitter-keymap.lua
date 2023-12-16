@@ -1,3 +1,3 @@
-return {
-    vim.keymap.set('n', '<leader>n', ':Neotree<CR>', {})
-}
+return function()
+    vim.keymap.set('n', '<leader>n', ':Neotree toggle last<CR>', {})
+end

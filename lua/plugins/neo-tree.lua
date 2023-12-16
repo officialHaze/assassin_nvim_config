@@ -8,5 +8,7 @@ return {
     },
     config = function()
         require("keymaps.neo-treesitter-keymap")
+        local mapKeys = require("keymaps.neo-treesitter-keymap")
+        mapKeys()
     end
 }
