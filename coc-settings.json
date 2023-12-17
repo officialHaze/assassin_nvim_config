@@ -4,5 +4,6 @@
             "name": "JavaSE-17",
             "path": "C:/Additional Program Files/Java/jdk-17"
         }
-    ]
+    ],
+    "python.jediEnabled": false
 }
